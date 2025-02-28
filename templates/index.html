@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heart Disease Prediction</title>
+</head>
+<body>
+    <h2>Heart Disease Prediction</h2>
+    <form action="/predict" method="post">
+        <label>Age:</label>
+        <input type="text" name="age"><br>
+
+        <label>Sex (0 = Female, 1 = Male):</label>
+        <input type="text" name="sex"><br>
+
+        <label>Chest Pain Type (0-3):</label>
+        <input type="text" name="cp"><br>
+
+        <label>Resting Blood Pressure:</label>
+        <input type="text" name="trestbps"><br>
+
+        <label>Cholesterol:</label>
+        <input type="text" name="cholesterol"><br>
+
+        <label>Fasting Blood Sugar (0 = No, 1 = Yes):</label>
+        <input type="text" name="fbs"><br>
+
+        <label>Resting ECG (0-2):</label>
+        <input type="text" name="restecg"><br>
+
+        <label>Max Heart Rate Achieved:</label>
+        <input type="text" name="thalach"><br>
+
+        <label>Exercise Induced Angina (0 = No, 1 = Yes):</label>
+        <input type="text" name="exang"><br>
+
+        <label>ST Depression (Oldpeak):</label>
+        <input type="text" name="oldpeak"><br>
+
+        <label>Slope of ST Segment (0-2):</label>
+        <input type="text" name="slope"><br>
+
+        <label>Number of Major Vessels (0-3):</label>
+        <input type="text" name="ca"><br>
+
+        <label>Thalassemia Type (1-3):</label>
+        <input type="text" name="thal"><br>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
